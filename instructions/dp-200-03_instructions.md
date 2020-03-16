@@ -1,65 +1,7 @@
 ﻿# DP 200 - Implementing a Data Platform Solution
 # Lab 3 - Enabling Team Based Data Science with Azure Databricks
 
-**Estimated Time**: 75 minutes
 
-**Pre-requisites**: It is assumed that the case study for this lab has already been read. It is assumed that the content and lab for module 1: Azure for the Data Engineer has also been completed
-
-**Lab files**: The files for this lab are located in the _Allfiles\Labfiles\Starter\DP-200.3_ folder.
-
-## Lab overview
-
-By the end of this lab the student will be able to explain why Azure Databricks can be used to help in Data Science projects. The students will provision an Azure Databricks instance and will then create a workspace that will be used to perform simple data preparation tasks from a Data Lake Store Gen2 store. Finally, the student will perform a walk-through of performing transformations using Azure Databricks.
-
-## Lab objectives
-  
-After completing this lab, you will be able to:
-
-1. Explain Azure Databricks
-1. Work with Azure Databricks
-1. Read data with Azure Databricks
-1. Perform transformations with Azure Databricks
-
-## Scenario
-  
-In response to the Information Services (IS) department, you will start the process of building a predictive analytics platform by listing out the benefits of using the technology. The department will be joined by data scientists and they want to ensure that there is a predictive analytics environment available to the new team members.
-
-You will stand up and provision an Azure Databricks environment, and then test that this environment works by performing a simple data preparation routine on the service by ingesting data from a pre-existing Data Lake Storage Gen2 account. As a data engineer, it has been indicated to you that you may be required to help the data scientists perform data preparation exercises. To that end, you have been recommended to walk-through a notebook that can help you perform basic transformations.
-
-At the end of this lad, you will have:
-
-1. Explained Azure Databricks
-1. Worked with Azure Databricks
-1. Read data with Azure Databricks
-1. Performed transformations with Azure Databricks
-
-> **IMPORTANT**: As you go through this lab, make a note of any issue(s) that you have encountered in any provisioning or configuration tasks and log it in the table in the document located at _\Labfiles\DP-200-Issues-Doc.docx_. Document the Lab number, note the technology, Describe the issue, and what was the resolution. Save this document as you will refer back to it in a later module.
-
-## Exercise 1: Explain Azure Databricks
-
->**Important**: Perform **exercise 2 first**, and return to exercise 1 after starting the creation of a Databricks Cluster in exercise 2, as it will take 10 minutes to provision.
-
-Estimated Time: 15 minutes
-
-Individual exercise
-  
-The main task for this exercise are as follows:
-
-1. From the content you have learned in this course so far, identify the digital transformation requirement that Azure Databricks will meet and a candidate data source for Azure Databricks.
-
-1. The instructor will discuss the findings with the group.
-
-### Task 1: Define the digital transformation and candidate data source.
-
-1. From the lab virtual machine, start **Microsoft Word**, and open up the file **DP-200-Lab03-Ex01.docx** from the **Allfiles\Labfiles\Starter\DP-200.3** folder.
-
-1. Spend **10 minutes** documenting the digital transformation requirement and candidate data source as outlined in the case study and the scenario of this lab.
-
-### Task 2: Discuss the findings with the Instructor
-
-1. The instructor will stop the group to discuss the findings.
-
-> **Result**: After you completed this exercise, you have created a Microsoft Word document that identifies the digital transformation requirement that Azure Databricks will meet and a candidate data source.
 
 ## Exercise 2: Work with Azure Databricks
   
