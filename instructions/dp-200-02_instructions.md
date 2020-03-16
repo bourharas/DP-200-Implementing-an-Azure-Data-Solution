@@ -1,10 +1,10 @@
 ﻿# DP 200 - Implementing a Data Platform Solution
 # Lab 2 - Working with Data Storage
 
-**Estimated Time**: 60 minutes
 
 
-## Exercise 2: Create an Azure Storage Account
+
+## Exercise 1: Create an Azure Storage Account
   
 Estimated Time: 20 minutes
 
@@ -140,7 +140,7 @@ The main tasks for this exercise are as follows:
 
 > **Result**: After you completed this exercise, you have created a Storage account named awsastudxx that has a container named images that contains four graphics files that are ready to be used on the AdventureWorks website.
 
-## Exercise 3: Explain Azure Data Lake Storage
+## Exercise 2: Explain Azure Data Lake Storage
   
 Estimated Time: 15 minutes
 
