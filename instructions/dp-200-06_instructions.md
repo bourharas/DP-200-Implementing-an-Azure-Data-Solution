@@ -3,14 +3,6 @@
 
 **Estimated Time**: 60 minutes
 
-**Pre-requisites**: It is assumed that the case study for this lab has already been read. It is assumed that the content and lab for module 1: Azure for the Data Engineer has also been completed
-
-**Lab files**: The files for this lab are located in the _Allfiles\Labfiles\Starter\DP-200.6_ folder.
-
-## Lab overview
-
-The students will be able to describe what data streams are and how event processing works and choose an appropriate data stream ingestion technology for the AdventureWorks case study. They will provision the chosen ingestion technology and integrate this with Stream Analytics to create a solution that works with streaming data.
-
 ## Lab objectives
   
 After completing this lab, you will be able to:
@@ -20,46 +12,8 @@ After completing this lab, you will be able to:
 1. Initiate a data generation application
 1. Process Data with a Stream Analytics Jobs
 
-## Scenario
-  
-As part of the digital transformation project, you have been tasked by the CIO to help the customer services departments identify fraudulent calls. Over the last few years the customer services departments have observed an increase in calls from fraudulent customer who are asking for support for bikes that are no longer in warranty, or bikes that have not even been purchased at AdventureWorks. 
 
-The department are currently relying on the experience of customer services agents to identify this. As a result, they would like to implement a system that can help the agents track in real-time who could be making a fradulent claim.
-
-At the end of this lad, you will have:
-
-1. Explained data streams and event processing
-1. Ingested data with Event Hubs
-1. Initiated a data generation application
-1. Processed Data with Stream Analytics Jobs
-
-> **IMPORTANT**: As you go through this lab, make a note of any issue(s) that you have encountered in any provisioning or configuration tasks and log it in the table in the document located at _\Labfiles\DP-200-Issues-Doc.docx_. Document the Lab number, note the technology, Describe the issue, and what was the resolution. Save this document as you will refer back to it in a later module.
-
-## Exercise 1: Explain data streams and event processing
-
-Estimated Time: 15 minutes
-
-Group exercise
-  
-The main task for this exercise are as follows:
-
-1. From the case study and the scenario, identify the data stream ingestion technology for AdventureWorks, and the high-level tasks that you will conduct as a data engineer to complete the social media analysis requirements.
-
-1. The instructor will discuss the findings with the group.
-
-### Task 1: Identify the data requirements and structures of AdventureWorks.
-
-1. From the lab virtual machine, start **Microsoft Word**, and open up the file **DP-200-Lab06-Ex01.docx** from the **Allfiles\Labfiles\Starter\DP-200.6** folder.
-
-1. As a group, spend **10 minutes** discussing and listing the data requirements and data structure that your group has identified within the case study document.
-
-### Task 2: Discuss the findings with the Instructor
-
-1. The instructor will stop the group to discuss the findings.
-
-> **Result**: After you completed this exercise, you have created a Microsoft Word document that shows a table of data streaming ingestion and the high-level tasks that you will conduct as a data engineer to complete the social media analysis requirements .
-
-## Exercise 2: Data Ingestion with Event Hubs.
+## Exercise 1: Data Ingestion with Event Hubs.
   
 Estimated Time: 15 minutes
 
@@ -132,7 +86,7 @@ The main tasks for this exercise are as follows:
 
 > **Result**: After you completed this exercise, you have created an Azure Event Hub within an Event Hub Namespace and set the security for the Event Hub that can be used to provide access to the service.
 
-## Exercise 3: Starting the telecom event generator application
+## Exercise 2: Starting the telecom event generator application
 
 Estimated Time: 15 minutes
 
@@ -193,7 +147,7 @@ After a few seconds, the app starts displaying phone call records on the screen 
 
 > **Result**: After you completed this exercise, you have conmfigured an application to generate data to minimic phone calls recieved by a call center.
 
-## Exercise 4: Processing Data with Stream Analytics Jobs
+## Exercise 3: Processing Data with Stream Analytics Jobs
 
 Estimated Time: 15 minutes
 
