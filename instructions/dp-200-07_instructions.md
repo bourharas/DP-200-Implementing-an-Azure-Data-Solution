@@ -14,20 +14,7 @@ After completing this lab, you will be able to:
 1. Use the Mapping Data Flow task to perform transformation
 1. Perform transformations using a compute resource
 
-## Scenario
-  
-You are assessing the tooling that can help with the extraction, load and transforming of data into the data warehouse, and have asked a Data Engineer within your team to show a proof of concept of Azure Data Factory to explore the transformation capabilities of the product. The proof of concept does not have to be related to AdventureWorks data, and you have given them freedom to pick a dataset of thier choice to showcase the capabilities.
 
-In addition, the Data Scientists have asked to confirm if Azure Databricks can be called from Azure Data Factory. To that end, you will create a simple proof of concept Data Factory pipeline that calls Azure Databricks as a compute resource.
-
-At the end of this lad, you will have:
-
-1. Setup Azure Data Factory
-1. Ingested data using the Copy Activity
-1. Used the Mapping Data Flow task to perform transformation
-1. Performed transformations using a compute resource
-
-> **IMPORTANT**: As you go through this lab, make a note of any issue(s) that you have encountered in any provisioning or configuration tasks and log it in the table in the document located at _\Labfiles\DP-200-Issues-Doc.docx_. Document the Lab number, note the technology, Describe the issue, and what was the resolution. Save this document as you will refer back to it in a later module.
 
 ## Exercise 1: Setup Azure Data Factory
 
