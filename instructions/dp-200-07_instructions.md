@@ -1,22 +1,6 @@
 ﻿# DP 200 - Implementing a Data Platform Solution
 # Lab 7 - Orchestrating Data Movement with Azure Data Factory
 
-**Estimated Time**: 70 minutes
-
-**Pre-requisites**: It is assumed that the case study for this lab has already been read. It is assumed that the content and lab for module 1: Azure for the Data Engineer has also been completed
-
-* **Azure subscription**: If you don't have an Azure subscription, create
-    a [free account](https://azure.microsoft.com/free/) before you begin.
-
-* **Azure Data Lake Storage Gen2 storage account**: If you don't have an ADLS
-    Gen2 storage account, see the instructions in [Create an ADLS Gen2 storage
-    account](https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-quickstart-create-account).
-
-* **Azure Synapse Analytics**: If you don't have a Azure Synapse Analytics account, see the instructions in [Create a SQL DW
-    account](https://docs.microsoft.com/en-us/azure/sql-data-warehouse/create-data-warehouse-portal).
-
-**Lab files**: The files for this lab are located in the _Allfiles\Labfiles\Starter\DP-200.7_ folder.
-
 ## Lab overview
 
 In this module, students will learn how Azure Data factory can be used to orchestrate the data movement from a wide range of data platform technologies. They will be able to explain the capabilities of the technology and be able to set up an end to end data pipeline that ingests data from SQL Database and load the data into Azure Synapse Analytics. The student will also demonstrate how to call a compute resource.
@@ -295,6 +279,10 @@ At this point, You have finished building your 8 transformation Mapping Data Flo
 1. If you used the same logic described in this lab, your Data Flow should will written 737 rows to your SQL DW. You can go into [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017) to verify the pipeline worked correctly and see what got written.
 
     ![Querying the results in SQL Server Management Studio](Linked_Image_Files/M07-E03-T05-img02.png)
+
+## If time permits
+
+> **Note**: If you have completed the labs so far and there is time, ask the instructor if you can do exercise 4. It is an example of Using Azure Data Factory and Databricks.
 
 ## Exercise 4: Azure Data Factory and Databricks
   
