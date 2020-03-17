@@ -1,67 +1,23 @@
 ﻿# DP 200 - Implementing a Data Platform Solution
 # Lab 8 - Securing Azure Data Platforms
 
-**Estimated Time**: 75 minutes
 
-**Pre-requisites**: It is assumed that the case study for this lab has already been read. It is assumed that the content and lab for module 1 to module 7 has been completed.
-
-**Lab files**: The files for this lab are located in the _Allfiles\Labfiles\Starter\DP-200.8_ folder.
-
-## Lab overview
-
-The students will be able to describe and document the different approaches to security that can be taken to provide defence in depth. This will involve the student documenting the security that has been set up so far in the course. It will also enable the students to identify any gaps in security that may exists for AdventureWorks.
 
 ## Lab objectives
   
 After completing this lab, you will be able to:
 
-1. Explain Security
 1. Describe key security components
 1. Secure Storage Accounts and Data Lake Storage
 1. Secure Data Stores
 1. Secure Streaming Data
 
-## Scenario
-  
-As a senior data engineer within AdventureWorks, you are responsible for ensuring that your data estate is secured. You are performing a security check of your current infrastructure to ensure that you have diligently placed security where it is required. This check should be a holistic check of all the services and data that you have created so far, and an identification of any gaps that there may be in the configuration of the security. 
 
-You have also been asked to tighten up the security of the SQL Database DeptDatabasesxx and have been asked to setup auditing against the database so that you can monitor access to the database. Furthermore, you have learned that that the Manage permission for your event hub is not restrictive enough, and you want to remove this permission.
-
-At the end of this lad, you will have:
-
-1. Explained Security
-1. Described key security components
-1. Secured Storage Accounts and Data Lake Storage
-1. Secured Data Stores
-1. Secured Streaming Data
 
 > **IMPORTANT**: As you go through this lab, make a note of any issue(s) that you have encountered in any provisioning or configuration tasks and log it in the table in the document located at _\Labfiles\DP-200-Issues-Doc.docx_. Document the Lab number, note the technology, Describe the issue, and what was the resolution. Save this document as you will refer back to it in a later module.
 
-## Exercise 1: An introduction to security
 
-Estimated Time: 15 minutes
-
-Group exercise
-  
-The main task for this exercise are as follows:
-
-1. Security as a layered approach.
-
-1. The instructor will discuss the findings with the group.
-
-### Task 1: Security as a layered approach.
-
-1. From the lab virtual machine, start **Microsoft Word**, and open up the file **DP-200-Lab08-Ex01.docx** from the **Allfiles\Labfiles\Starter\DP-200.8** folder.
-
-1. From the course content, case study and the scenarios taken in the course so far, spend **10 minutes** in a group identifying the layers of security that you have impacted so far to secure AdventureWorks in the labs. Find three examples.
-
-### Task 2: Discuss the findings with the Instructor
-
-1. The instructor will stop the group to discuss the findings.
-
-> **Result**: After you completed this exercise, you have created a Microsoft Word document that contains at least three examples of how you have implemented security at Adventureworks and which layer of security you have impacted.
-
-## Exercise 2: Key security components
+## Exercise 1: Key security components
   
 Estimated Time: 10 minutes
 
@@ -88,7 +44,7 @@ The main tasks for this exercise are as follows:
 
 > **Result**: After you completed this exercise, you have learned where you can look to identify any data and storage security weaknesses that is in your Azure subscription.
 
-## Exercise 3: Securing Storage Accounts and Data Lake Storage
+## Exercise 2: Securing Storage Accounts and Data Lake Storage
   
 Estimated Time: 15 minutes
 
@@ -112,7 +68,7 @@ The main tasks for this exercise are as follows:
 
 > **Result**: After you completed this exercise, you have created a Microsoft Word document that contains the steps that you would take to provide secure access to a Blob storage account to a third-party web development company.
 
-## Exercise 4: Securing Data Stores
+## Exercise 3: Securing Data Stores
   
 Estimated Time: 15 minutes
 
@@ -180,7 +136,7 @@ The main tasks for this exercise are as follows:
 
 > **Result**: After you completed this exercise, you have enabled database auditing and verified that the auditing works.
 
-## Exercise 5: Securing Streaming Data
+## Exercise 4: Securing Streaming Data
   
 Estimated Time: 15 minutes
 
