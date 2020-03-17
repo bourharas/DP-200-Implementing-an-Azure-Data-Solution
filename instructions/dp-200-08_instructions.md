@@ -44,31 +44,8 @@ The main tasks for this exercise are as follows:
 
 > **Result**: After you completed this exercise, you have learned where you can look to identify any data and storage security weaknesses that is in your Azure subscription.
 
-## Exercise 2: Securing Storage Accounts and Data Lake Storage
-  
-Estimated Time: 15 minutes
 
-Individual exercise
-  
-The main tasks for this exercise are as follows:
-
-1. Determining the appropriate security approach for Azure Blob
-
-1. Discuss the findings with the Instructor
-
-### Task 1: Determining the appropriate security approach for Azure Blob
-
-1. You have been approached by your in-house web developer to help give access to a third party web design company to the web images that are in the awsastudxx storage account. As a senior data engineer within AdventureWorks, what steps would you need to take to ensure this can happen while applying the correct due diligence.
-
-1. From the lab virtual machine, start **Microsoft Word**, and open up the file **DP-200-Lab08-Ex03.docx** from the **Allfiles\Labfiles\Starter\DP-200.8** folder.
-
-### Task 2: Discuss the findings with the Instructor
-
-1. The instructor will stop the group to discuss the findings.
-
-> **Result**: After you completed this exercise, you have created a Microsoft Word document that contains the steps that you would take to provide secure access to a Blob storage account to a third-party web development company.
-
-## Exercise 3: Securing Data Stores
+## Exercise 2: Securing Data Stores
   
 Estimated Time: 15 minutes
 
@@ -136,7 +113,7 @@ The main tasks for this exercise are as follows:
 
 > **Result**: After you completed this exercise, you have enabled database auditing and verified that the auditing works.
 
-## Exercise 4: Securing Streaming Data
+## Exercise 3: Securing Streaming Data
   
 Estimated Time: 15 minutes
 
