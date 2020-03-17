@@ -1,15 +1,7 @@
 ﻿# DP 200 - Implementing a Data Platform Solution
 # Lab 5 - Working with Relational Data Stores in the Cloud
 
-**Estimated Time**: 75 minutes
-
-**Pre-requisites**: It is assumed that the case study for this lab has already been read. It is assumed that the content and lab for module 1: Azure for the Data Engineer has also been completed
-
-**Lab files**: The files for this lab are located in the _Allfiles\Labfiles\Starter\DP-200.5_ folder.
-
-## Lab overview
-
-The students will be able to provision an Azure SQL Database and Azure Synapse Analytics server and be able to issue queries against one of the instances that are created. They will be also be able to integrate a data warehouse with a number of other data platform technologies and use PolyBase to load data from one data source into Azure Synapse Analytics.
+**Estimated Time**: 60 minutes
 
 ## Lab objectives
   
@@ -18,20 +10,9 @@ After completing this lab, you will be able to:
 1. Use Azure SQL Database
 1. Describe Azure Synapse Analytics 
 1. Create and query Azure Synapse Analytics 
-1. Use PolyBase to load data into Azure Synapse Analytics 
+1. (optional) Use PolyBase to load data into Azure Synapse Analytics 
 
-## Scenario
-  
-You are the senior data engineer at AdventureWorks, and you are working with your team to transition a relational database system from an on-premises SQL Server to a Azure SQL Database located in Azure. You will begin by creating an instance of Azure SQL Database with the company's sample database. Your intention is to hand this instance of to a junior data engineer to perform some testing of departmental databases.
 
-You will then provision Azure Synapse Analytics server and test that the provisioning of the server is successful by testing a sample database with a series of queries. You will then use PolyBase to load a dimension table from Azure Blob to test that the integration of this data platform technology with Azure Synapse Analytics.
-
-At the end of this lad, you will have:
-
-1. Used Azure SQL Database
-1. Described Azure Synapse Analytics 
-1. Created and queryied Azure Synapse Analytics 
-1. Used PolyBase to doad data into Azure Synapse Analytics 
 
 > **IMPORTANT**: As you go through this lab, make a note of any issue(s) that you have encountered in any provisioning or configuration tasks and log it in the table in the document located at _\Labfiles\DP-200-Issues-Doc.docx_. Document the Lab number, note the technology, Describe the issue, and what was the resolution. Save this document as you will refer back to it in a later module.
 
@@ -294,6 +275,13 @@ The main tasks for this exercise are as follows:
 1. In **SQL Server Management Studio**, click on **Execute**.
 
 > **Result**: After you completed this exercise, you have installed SQL Server Management Studio to create a data warhouse named DWDB and three tables named Users, Products and FactSales.
+
+
+
+## If time permits
+
+> **Note**: If you have completed the labs so far and there is time, ask the instructor if you can do exercise 4. It is an example of Using PolyBase to Load Data into Azure Synapse Analytics.
+
 
 ## Exercise 4: Using PolyBase to Load Data into Azure Synapse Analytics 
 
