@@ -61,7 +61,6 @@ The main tasks for this exercise are as follows:
 
 ### Task 1: Enabling Auditing
 
-1. In the Azure portal, in the blade, click **Resource groups**, and then click **awrgstudxx**, and then click on **awdlsstudxx**, where **xx** are your initials
 
 1. In the Azure portal, in the blade, click Resource groups, and then click awrgstudxx, and then click on **AdventureWorksLT**.
 
