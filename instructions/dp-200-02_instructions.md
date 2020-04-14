@@ -218,7 +218,7 @@ The main tasks for this exercise are as follows:
 
 > **Result**: After you completed this exercise, you have created a Data Lake Gen2 Storage account named awdlsstudxx that has a file system named data.
 
-## Exercise 4: Upload data into Azure Data Lake.
+## Exercise 3: Upload data into Azure Data Lake.
   
 Estimated Time: 10 minutes
 
